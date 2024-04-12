@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mdidias</title>
+</head>
+<body>
+    <h1>Img dinamicas</h1>
+    <p>usado para se adpatar com com o tamanho da tela</p>
+        <picture> 
+            <source media="(max-width: 750px )" srcset="IMGS/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px )" srcset="IMGS/foto-m.png" type="image/png">
+        <img src="IMGS/foto-g.png" alt="img flexivel">
+        </picture>
+        <h1>reproduzindo audios</h1>
+        <p>como fazer isso</p>
+        <audio autoplay controls loop>
+            <source src="midia/Putting On The Ritz - Freedom Trail Studio.mp3" type="audio/mpeg">
+        </audio>
+       <audio src="midia/guanacast-33.mp3" autoplay controls></audio>
+       <p>Infelizmente seu navegador é incopativel <a href="midia/guanacast-33.mp3">clique aqui para baixar o arquivo mp3</a></p>
+</body>
+</html>

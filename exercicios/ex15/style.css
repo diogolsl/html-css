@@ -1,0 +1,16 @@
+ 
+ body { 
+    background-color: lightgoldenrodyellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+h1 {
+    color: blue;
+    background-color: darkorchid;
+}
+h2 {
+    color: chartreuse;
+}
+p {
+    text-align: center;
+}
