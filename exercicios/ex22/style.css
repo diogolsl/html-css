@@ -1,5 +1,24 @@
+body{
+    background-image: url('img/wallpaper001.jpg');
+}
 .quad{
     border: 1px solid black;
     width: 300px;
     height: 300px;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: lightgrey;
+}
+div#q1{
+background-color: aqua;
+}
+div#q2{
+background-color: brown;
+}
+div#q3{
+background-image: url('img/pattern001.png');
+}
+div#q4{
+    background-image: url('img/wallpaper002.jpg');
+    background-size: cover;
 }
