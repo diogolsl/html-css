@@ -12,6 +12,13 @@
             width: 500px;
             border-collapse: collapse;
         }
+        caption{
+            background-color: rgb(88, 88, 88);
+            font-size: 1.6em;
+            font-weight: bolder;
+            padding: 8px;
+            border-radius: 8px 8px 0px 0px;
+        }
         thead, tfoot{
             background-color: rgb(88, 88, 88);
             color: white;
@@ -28,9 +35,10 @@
 <body>
     <h1>tabelas grandes</h1>
     <table>
+        <caption> Dados das Unidades Federativas</caption>
         <thead>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
         </thead>
         <tbody>
             <tr>
@@ -76,7 +84,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total</th>
+                <th scope="row">Total</th>
                 <td class="num"><strong>203 062 512</strong></td>
             </tr>
         </tfoot>
