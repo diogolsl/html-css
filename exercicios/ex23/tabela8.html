@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption{
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+        td, th{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        .cnome{
+            background-color: blueviolet;
+        }
+        .cidade{
+            background-color: coral;
+        }
+        .cgenero{
+            background-color: darkgreen;
+        }
+        .cprofissao{
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cidade">
+            <col class="cgenero">
+            <col class="cprofissao">
+    </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Genero</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Marys</td>
+            <td>36</td>
+            <td>M</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Gilmar</td>
+            <td>40</td>
+            <td>H</td>
+            <td>Nutricionista</td>
+        </tr>
+        <tr>
+            <td>Mateo Ponte</td>
+            <td>20</td>
+            <td>H</td>
+            <td>Jogador de Futebol</td>
+        </tr>
+        <tr>
+            <td>Sara Lima</td>
+            <td>28</td>
+            <td>M</td>
+            <td>Personal Trainer</td>
+        </tr>
+        <tr>
+            <td>Artur Jorge</td>
+            <td>54</td>
+            <td>H</td>
+            <td>Técnico</td>
+        </tr>
+        <tr>
+            <td>Marcelo Bechler</td>
+            <td>41</td>
+            <td>H</td>
+            <td>Jornalista Esportivo</td>
+        </tr>
+    </table>
+</body>
+</html>
