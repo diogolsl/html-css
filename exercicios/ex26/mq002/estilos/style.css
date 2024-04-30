@@ -8,9 +8,9 @@
 html, body {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(114, 189, 255);
-    background-repeat: no-repeat;
+    background-color: #233EFF;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 h1{
     color: aliceblue;
