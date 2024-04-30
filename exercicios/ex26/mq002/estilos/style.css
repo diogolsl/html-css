@@ -13,7 +13,7 @@ html, body {
     background-repeat: no-repeat;
 }
 h1{
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.24);
     color: aliceblue;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
     padding: 10px;
 }
